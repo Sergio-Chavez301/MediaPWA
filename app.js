@@ -4,8 +4,8 @@ let currentFacing = 'environment';    // Camara activa: "user" (frontal) o "envi
 let mediaRecorder = null;             // Instancia de MediaRecorder para audio
 let chunks = [];                      // Buffers temporales de audio grabado
 let beforeInstallEvent = null;        // Evento diferido para mostrar el boton de instalacion
-
-// Accesos rapidos al DOM
+// Variables de estado para vibracion y tono de llamada
+// Accesos rapidos al DOM 
 const $ = (sel) => document.querySelector(sel);
 const video = $('#video');            // <video> donde se muestra el stream
 const canvas = $('#canvas');          // <canvas> para capturar fotos
