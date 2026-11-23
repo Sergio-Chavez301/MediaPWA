@@ -1,4 +1,4 @@
-const CACHE = 'media-pwa-v1';
+const CACHE = 'media-pwa-v2';
 
 const ASSETS = [
   './',
@@ -8,8 +8,12 @@ const ASSETS = [
   './manifest.webmanifest',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  './icons/maskable-192.png',
-  './icons/maskable-512.png'
+  './assets/maskable-192.png',
+  './assets/maskable-512.png',
+  './assets/apple-touch-icon-180.png',
+  './assets/old_phone_ring.mp3',
+  './assets/old_phone_ring.ogg',
+  './icons/favicon.png'
 ];
 
 // Evento que se ejecuta cuando el Service Worker se instala por primera vez
